@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react"; 
-import './index.scss';
 
-const Nav = () => {
+import './style.scss';
+
+function Nav () {
 
     const [show, handleShow] = useState(false);
 
